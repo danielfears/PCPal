@@ -4,14 +4,29 @@
     android:layout_height="match_parent"
     android:background="#ffffffff">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#ffffffff">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logo"
+            android:src="@drawable/companylogo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"/>
+
+    </RelativeLayout>
+
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:paddingTop="100dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="500dp"
-            android:layout_marginTop="100dp"
             android:background="#ffffffff">
 
             <ImageButton
@@ -22,7 +37,6 @@
                 android:scaleType="fitXY"
                 android:layout_marginStart="50dp"
                 android:layout_marginLeft="50dp"
-                android:layout_below="@+id/logo"
                 android:background="#ffffffff"
                 android:layout_marginTop="25dp"/>
 
@@ -34,7 +48,6 @@
                 android:scaleType="fitXY"
                 android:layout_marginStart="50dp"
                 android:layout_marginLeft="200dp"
-                android:layout_below="@+id/logo"
                 android:background="#ffffffff"
                 android:layout_marginTop="25dp"/>
 
@@ -113,20 +126,5 @@
         </RelativeLayout>
 
     </ScrollView>
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="#ffffffff">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/logo"
-            android:src="@drawable/companylogo"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="25dp"/>
-
-    </RelativeLayout>
 
 </RelativeLayout>
