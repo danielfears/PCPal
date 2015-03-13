@@ -17,11 +17,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".component_guide"
+            android:name=".ComponentGuide"
             android:label="@string/title_activity_component_guide" >
         </activity>
         <activity
-            android:name=".builder_checklist"
+            android:name=".BuildChecklist"
             android:label="@string/title_activity_builder_checklist" >
         </activity>
     </application>

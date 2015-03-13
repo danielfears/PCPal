@@ -4,129 +4,21 @@
     android:layout_height="match_parent"
     android:background="#ffffffff">
 
-    <ScrollView
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo"
+        android:src="@drawable/companylogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+
+    <GridView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="500dp"
-            android:layout_marginTop="100dp"
-            android:background="#ffffffff">
-
-            <ImageButton
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:id="@+id/pccase"
-                android:src="@drawable/pccase"
-                android:scaleType="fitXY"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
-                android:layout_below="@+id/logo"
-                android:background="#ffffffff"
-                android:layout_marginTop="25dp"/>
-
-            <ImageButton
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:id="@+id/motherboard"
-                android:src="@drawable/motherboard"
-                android:scaleType="fitXY"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="200dp"
-                android:layout_below="@+id/logo"
-                android:background="#ffffffff"
-                android:layout_marginTop="25dp"/>
-
-            <ImageButton
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:id="@+id/cpu"
-                android:src="@drawable/cpu"
-                android:scaleType="fitXY"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
-                android:layout_below="@+id/pccase"
-                android:background="#ffffffff"
-                android:layout_marginTop="25dp"/>
-
-            <ImageButton
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:id="@+id/memory"
-                android:src="@drawable/memory"
-                android:scaleType="fitXY"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
-                android:layout_below="@+id/cpu"
-                android:background="#ffffffff"
-                android:layout_marginTop="25dp"/>
-
-            <ImageButton
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:id="@+id/cooler"
-                android:src="@drawable/cooler"
-                android:scaleType="fitXY"
-                android:layout_marginStart="200dp"
-                android:layout_marginLeft="200dp"
-                android:layout_below="@+id/motherboard"
-                android:background="#ffffffff"
-                android:layout_marginTop="25dp"/>
-
-            <ImageButton
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:id="@+id/powersupply"
-                android:src="@drawable/powersupply"
-                android:scaleType="fitXY"
-                android:layout_marginStart="200dp"
-                android:layout_marginLeft="200dp"
-                android:layout_below="@+id/cooler"
-                android:background="#ffffffff"
-                android:layout_marginTop="25dp"/>
-
-            <ImageButton
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:id="@+id/harddrive"
-                android:src="@drawable/harddrive"
-                android:scaleType="fitXY"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
-                android:layout_below="@+id/memory"
-                android:background="#ffffffff"
-                android:layout_marginTop="25dp"/>
-
-            <ImageButton
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:id="@+id/harddrive2"
-                android:src="@drawable/harddrive"
-                android:scaleType="fitXY"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
-                android:layout_below="@+id/harddrive"
-                android:background="#ffffffff"
-                android:layout_marginTop="25dp"/>
-
-        </RelativeLayout>
-
-    </ScrollView>
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="#ffffffff">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/logo"
-            android:src="@drawable/companylogo"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="25dp"/>
-
-    </RelativeLayout>
+        android:layout_height="match_parent"
+        android:id="@+id/componentGridView"
+        android:numColumns="2"
+        android:horizontalSpacing="20dp"
+        android:verticalSpacing="20dp"
+        android:paddingTop="100dp"/>
 
 </RelativeLayout>
