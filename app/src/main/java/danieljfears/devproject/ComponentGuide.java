@@ -9,9 +9,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
+import android.widget.PopupMenu;
+import android.widget.PopupWindow;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,6 +24,7 @@ public class ComponentGuide extends ActionBarActivity {
 
     private GridView gridView;
     private List<String> components;
+    private PopupWindow popup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +50,15 @@ public class ComponentGuide extends ActionBarActivity {
 
         ComponentAdapter adapter = new ComponentAdapter(ComponentGuide.this);
         gridView.setAdapter(adapter);
+
+        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                popup = new PopupWindow();
+                popup.setContentView(R.layout.activity_builder_checklist);
+
+            }
+        });
     }
 
     private class ComponentAdapter extends BaseAdapter {
