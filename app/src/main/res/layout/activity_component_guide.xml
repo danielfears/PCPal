@@ -10,15 +10,9 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/logo"
-                android:src="@drawable/companylogo"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="25dp"/>
+            android:layout_height="500dp"
+            android:layout_marginTop="100dp"
+            android:background="#ffffffff">
 
             <ImageButton
                 android:layout_width="125dp"
@@ -104,8 +98,35 @@
                 android:background="#ffffffff"
                 android:layout_marginTop="25dp"/>
 
+            <ImageButton
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:id="@+id/harddrive2"
+                android:src="@drawable/harddrive"
+                android:scaleType="fitXY"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_below="@+id/harddrive"
+                android:background="#ffffffff"
+                android:layout_marginTop="25dp"/>
+
         </RelativeLayout>
 
     </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#ffffffff">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logo"
+            android:src="@drawable/companylogo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"/>
+
+    </RelativeLayout>
 
 </RelativeLayout>
