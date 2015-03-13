@@ -1,26 +1,37 @@
 package danieljfears.devproject;
 
+import android.app.Activity;
 import android.content.Context;
 import android.graphics.Color;
+import android.graphics.Point;
+import android.graphics.drawable.BitmapDrawable;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
+import android.widget.Button;
 import android.widget.GridView;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.PopupMenu;
 import android.widget.PopupWindow;
+import android.widget.RelativeLayout;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
 public class ComponentGuide extends ActionBarActivity {
+
+    //Point p;
 
     private GridView gridView;
     private List<String> components;
@@ -54,11 +65,33 @@ public class ComponentGuide extends ActionBarActivity {
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                popup = new PopupWindow();
-                popup.setContentView(R.layout.activity_builder_checklist);
+
+                    showPopup(ComponentGuide.this,null);
 
             }
         });
+    }
+
+    // The method that displays the popup.
+    private void showPopup(final Activity context, Point p) {
+        int popupWidth = 800;
+        int popupHeight = 800;
+
+        // Inflate the popup_layout.xml
+        RelativeLayout viewGroup = (RelativeLayout) context.findViewById(R.id.popup);
+        LayoutInflater layoutInflater = (LayoutInflater) context
+                .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        View layout = layoutInflater.inflate(R.layout.popup_layout, viewGroup);
+
+        // Creating the PopupWindow
+        final PopupWindow popup = new PopupWindow(context);
+        popup.setContentView(layout);
+        popup.setWidth(popupWidth);
+        popup.setHeight(popupHeight);
+        popup.setFocusable(true);
+
+        // Displaying the popup at the specified location, + offsets.
+        popup.showAtLocation(layout, Gravity.CENTER, 0, 0);
     }
 
     private class ComponentAdapter extends BaseAdapter {
