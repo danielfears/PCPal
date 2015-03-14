@@ -7,6 +7,7 @@ import android.graphics.Point;
 import android.graphics.drawable.BitmapDrawable;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.AttributeSet;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -43,6 +44,7 @@ public class ComponentGuide extends ActionBarActivity {
         setContentView(R.layout.activity_component_guide);
 
         gridView = (GridView)findViewById(R.id.componentGridView);
+
 
         components = new ArrayList<String>();
 
