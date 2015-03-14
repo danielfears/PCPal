@@ -4,205 +4,49 @@
     android:layout_height="match_parent"
     android:background="#ffffffff">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
+    <ImageView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#ffffffff">
+        android:id="@+id/logo"
+        android:src="@drawable/companylogo"
+        android:layout_centerHorizontal="true"/>
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/logo"
-            android:src="@drawable/companylogo"
-            android:layout_centerHorizontal="true"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Your guide to PC components!"
-            android:layout_centerHorizontal="true"
-            android:layout_below="@+id/logo"
-            android:id="@+id/sloganone"
-            android:textStyle="bold"
-            />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tap for info / scroll down for more"
-            android:layout_centerHorizontal="true"
-            android:layout_below="@+id/sloganone"
-            android:id="@+id/slogantwo"
-            android:textStyle="italic"
-            />
-
-        </RelativeLayout>
-
-    <ScrollView
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/firstline"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Your guide to PC Components!"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/logo"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/secondtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tap for info / scroll down for more"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/firstline"
+        android:textStyle="italic"
+        />
+
+    <GridView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/componentGridView"
+        android:numColumns="2"
+        android:horizontalSpacing="20dp"
+        android:verticalSpacing="20dp"
         android:paddingTop="110dp"
-        android:paddingBottom="50dp">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="500dp"
-            android:background="#ffffffff">
-
-            <ImageButton
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:id="@+id/pccase"
-                android:src="@drawable/pccase"
-                android:scaleType="fitXY"
-                android:layout_marginStart="45dp"
-                android:layout_marginLeft="45dp"
-                android:background="#ffffffff"
-                android:layout_marginTop="25dp"/>
-
-            <ImageButton
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:id="@+id/motherboard"
-                android:src="@drawable/motherboard"
-                android:scaleType="fitXY"
-                android:layout_marginStart="200dp"
-                android:layout_marginLeft="200dp"
-                android:background="#ffffffff"
-                android:layout_marginTop="25dp"/>
-
-            <ImageButton
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:id="@+id/cpu"
-                android:src="@drawable/cpu"
-                android:scaleType="fitXY"
-                android:layout_marginStart="45dp"
-                android:layout_marginLeft="45dp"
-                android:layout_below="@+id/pccase"
-                android:background="#ffffffff"
-                android:layout_marginTop="25dp"/>
-
-            <ImageButton
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:id="@+id/cooler"
-                android:src="@drawable/cooler"
-                android:scaleType="fitXY"
-                android:layout_marginStart="200dp"
-                android:layout_marginLeft="200dp"
-                android:layout_below="@+id/motherboard"
-                android:background="#ffffffff"
-                android:layout_marginTop="25dp"/>
-
-            <ImageButton
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:id="@+id/memory"
-                android:src="@drawable/memory"
-                android:scaleType="fitXY"
-                android:layout_marginStart="45dp"
-                android:layout_marginLeft="45dp"
-                android:layout_below="@+id/cpu"
-                android:background="#ffffffff"
-                android:layout_marginTop="25dp"/>
-
-
-            <ImageButton
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:id="@+id/powersupply"
-                android:src="@drawable/powersupply"
-                android:scaleType="fitXY"
-                android:layout_marginStart="200dp"
-                android:layout_marginLeft="200dp"
-                android:layout_below="@+id/cooler"
-                android:background="#ffffffff"
-                android:layout_marginTop="25dp"/>
-
-            <ImageButton
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:id="@+id/harddrive"
-                android:src="@drawable/harddrive"
-                android:scaleType="fitXY"
-                android:layout_marginStart="45dp"
-                android:layout_marginLeft="45dp"
-                android:layout_below="@+id/memory"
-                android:background="#ffffffff"
-                android:layout_marginTop="25dp"/>
-
-            <ImageButton
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:id="@+id/gpu"
-                android:src="@drawable/gpu"
-                android:scaleType="fitXY"
-                android:layout_marginStart="200dp"
-                android:layout_marginLeft="200dp"
-                android:layout_below="@+id/powersupply"
-                android:background="#ffffffff"
-                android:layout_marginTop="25dp"/>
-
-            <ImageButton
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:id="@+id/cddrive"
-                android:src="@drawable/cddrive"
-                android:scaleType="fitXY"
-                android:layout_marginStart="45dp"
-                android:layout_marginLeft="45dp"
-                android:layout_below="@+id/harddrive"
-                android:background="#ffffffff"
-                android:layout_marginTop="25dp"/>
-
-            <ImageButton
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:id="@+id/operatingsystem"
-                android:src="@drawable/operatingsystem"
-                android:scaleType="fitXY"
-                android:layout_marginStart="200dp"
-                android:layout_marginLeft="200dp"
-                android:layout_below="@+id/gpu"
-                android:background="#ffffffff"
-                android:layout_marginTop="25dp"/>
-
-            <ImageButton
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:id="@+id/satacable"
-                android:src="@drawable/satacable"
-                android:scaleType="fitXY"
-                android:layout_marginStart="45dp"
-                android:layout_marginLeft="45dp"
-                android:layout_below="@+id/cddrive"
-                android:background="#ffffffff"
-                android:layout_marginTop="25dp"/>
-
-            <ImageButton
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:id="@+id/fans"
-                android:src="@drawable/fans"
-                android:scaleType="fitXY"
-                android:layout_marginStart="200dp"
-                android:layout_marginLeft="200dp"
-                android:layout_below="@+id/operatingsystem"
-                android:background="#ffffffff"
-                android:layout_marginTop="25dp"/>
-
-        </RelativeLayout>
-
-    </ScrollView>
-
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="40dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Copyright PCPal © Daniel Fears 2015"
-        android:layout_marginTop="525dp"
         android:layout_centerHorizontal="true"
-        />
+        android:text="© 2015 Daniel Fears - PCPal™"
+        android:layout_marginTop="525dp"/>
 
 </RelativeLayout>
