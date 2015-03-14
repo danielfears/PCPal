@@ -4,7 +4,6 @@
     android:layout_height="match_parent"
     android:background="#ffffffff">
 
-<<<<<<< HEAD
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -197,58 +196,13 @@
 
     </ScrollView>
 
-=======
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/logo"
-        android:src="@drawable/companylogo"
-        android:layout_centerHorizontal="true"/>
-
-    <TextView
-        android:id="@+id/firstline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Your guide to PC Components!"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/logo"
-        android:textStyle="bold"
-        />
-
-    <TextView
-        android:id="@+id/secondtext"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="tap for info / scroll down for more"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/firstline"
-        android:textStyle="italic"
-        />
-
-    <GridView
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/componentGridView"
-        android:numColumns="2"
-        android:horizontalSpacing="20dp"
-        android:verticalSpacing="20dp"
-        android:paddingTop="110dp"
-        android:layout_centerHorizontal="true"
-        android:paddingBottom="40dp"/>
->>>>>>> JoeTestFriday
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
         android:text="Copyright PCPal © Daniel Fears 2015"
         android:layout_marginTop="525dp"
         android:layout_centerHorizontal="true"
         />
-=======
-        android:layout_centerHorizontal="true"
-        android:text="© 2015 Daniel Fears - PCPal™"
-        android:layout_marginTop="525dp"/>
->>>>>>> JoeTestFriday
 
 </RelativeLayout>

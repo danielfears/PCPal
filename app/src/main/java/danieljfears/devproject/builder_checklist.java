@@ -6,7 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class BuildChecklist extends ActionBarActivity {
+public class builder_checklist extends ActionBarActivity {
 
 
 
