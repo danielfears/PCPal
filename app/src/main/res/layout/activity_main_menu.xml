@@ -44,11 +44,13 @@
         android:layout_marginTop="30dp"/>
 
     <TextView
+        android:id="@+id/copyright"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Copyright PCPal © Daniel Fears 2015"
         android:layout_marginTop="525dp"
         android:layout_centerHorizontal="true"
+        android:clickable="true"
         />
 
 </RelativeLayout>
