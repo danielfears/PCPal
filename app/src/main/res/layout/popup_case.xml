@@ -9,14 +9,71 @@
         android:text="Case"
         android:textSize="28sp"
         android:layout_centerHorizontal="true"
-        android:paddingTop="40dp"
         android:textStyle="bold"/>
 
-    <ImageView
-        android:layout_width="wrap_content"
+    <ScrollView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/pccase"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"/>
+        android:layout_marginTop="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/a"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pccase2"
+                android:layout_centerHorizontal="true"/>
+
+            <ImageView
+                android:id="@+id/b"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pccase2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:layout_below="@+id/a"/>
+
+            <ImageView
+                android:id="@+id/c"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pccase2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:layout_below="@+id/b"/>
+
+            <ImageView
+                android:id="@+id/d"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pccase2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:layout_below="@+id/c"/>
+
+            <ImageView
+                android:id="@+id/e"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pccase2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:layout_below="@+id/d"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="www.google.co.uk"
+                android:layout_below="@+id/e"
+                android:id="@+id/link"
+                android:autoLink="web"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
 
 </RelativeLayout>

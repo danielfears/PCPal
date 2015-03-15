@@ -5,6 +5,7 @@ import android.content.Context;
 import android.graphics.Point;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,6 +16,7 @@ import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.text.ParsePosition;
@@ -31,6 +33,9 @@ public class ComponentGuide extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_component_guide);
+
+        //TextView t2 = (TextView) findViewById(R.id.link);
+        //t2.setMovementMethod(LinkMovementMethod.getInstance());
 
         gridView = (GridView)findViewById(R.id.componentGridView);
 
@@ -57,40 +62,40 @@ public class ComponentGuide extends ActionBarActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 if(components.get(position) == "drawable/pccase"){
-                    showCasePopup(ComponentGuide.this,null);
+                    showCasePopup(ComponentGuide.this, null);
                 }
                 else if(components.get(position) == "drawable/motherboard"){
-                    showMotherboardPopup(ComponentGuide.this,null);
+                    showMotherboardPopup(ComponentGuide.this, null);
                 }
                 else if(components.get(position) == "drawable/cpu"){
-                    showCpuPopup(ComponentGuide.this,null);
+                    showCpuPopup(ComponentGuide.this, null);
                 }
                 else if(components.get(position) == "drawable/cooler"){
-                    showCoolerPopup(ComponentGuide.this,null);
+                    showCoolerPopup(ComponentGuide.this, null);
                 }
                 else if(components.get(position) == "drawable/memory"){
-                    showMemoryPopup(ComponentGuide.this,null);
+                    showMemoryPopup(ComponentGuide.this, null);
                 }
                 else if(components.get(position) == "drawable/powersupply"){
-                    showPowersupplyPopup(ComponentGuide.this,null);
+                    showPowersupplyPopup(ComponentGuide.this, null);
                 }
                 else if(components.get(position) == "drawable/harddrive"){
-                    showHarddrivePopup(ComponentGuide.this,null);
+                    showHarddrivePopup(ComponentGuide.this, null);
                 }
                 else if(components.get(position) == "drawable/gpu"){
-                    showGpuPopup(ComponentGuide.this,null);
+                    showGpuPopup(ComponentGuide.this, null);
                 }
                 else if(components.get(position) == "drawable/cddrive"){
-                    showCddrivePopup(ComponentGuide.this,null);
+                    showCddrivePopup(ComponentGuide.this, null);
                 }
                 else if(components.get(position) == "drawable/operatingsystem"){
-                    showOperatingsystemPopup(ComponentGuide.this,null);
+                    showOperatingsystemPopup(ComponentGuide.this, null);
                 }
                 else if(components.get(position) == "drawable/satacable"){
-                    showSatacablePopup(ComponentGuide.this,null);
+                    showSatacablePopup(ComponentGuide.this, null);
                 }
                 else if(components.get(position) == "drawable/fans"){
-                    showFansPopup(ComponentGuide.this,null);
+                    showFansPopup(ComponentGuide.this, null);
                 }
 
                 Toast.makeText(ComponentGuide.this, components.get(position), Toast.LENGTH_SHORT).show();
