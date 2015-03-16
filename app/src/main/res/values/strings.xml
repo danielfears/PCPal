@@ -6,5 +6,12 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_component_guide">component_guide</string>
     <string name="title_activity_builder_checklist">builder_checklist</string>
+    <string name="case_description">The computer case, commonly known as the tower or base unit, is the enclosure in which all
+        other components are contained. The aim of the case is to safely house all PC components in an environment
+        in which air can flow freely to keep components cool.
+    </string>
+    <string name="case_description2">Cases come in a variety of sizes, the most common being mATX (smallest),
+        ATX (average) and full ATX (larger). Expensive cases offer builders more space, more auxiliary ports, and greater options for cooling.</string>
+    <string name="amazonlink"><a href="http://tinyurl.com/lq82tma/">Amazon UK</a></string>
 
 </resources>

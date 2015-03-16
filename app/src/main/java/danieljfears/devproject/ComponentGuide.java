@@ -34,9 +34,6 @@ public class ComponentGuide extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_component_guide);
 
-        //TextView t2 = (TextView) findViewById(R.id.link);
-        //t2.setMovementMethod(LinkMovementMethod.getInstance());
-
         gridView = (GridView)findViewById(R.id.componentGridView);
 
         components = new ArrayList<>();
@@ -104,6 +101,8 @@ public class ComponentGuide extends ActionBarActivity {
         });
 
     }
+
+
 
     private class ComponentAdapter extends BaseAdapter {
         private Context mContext;
