@@ -39,6 +39,13 @@
     (DDR3 or DDR4 are the newest standard). Sticks of memory are either bought in pairs and multiples of 2, 4 or 8gb capacity, with some motherboards having
     a maximum amount they can support.</string>
 
+    <string name="powersupply_description">The power supply, also know as the PSU (power supply unit), is the component which supplies regulated electricity to
+    the computer. The power supply connects to the motherboard using two PCI-E auxiliary connectors and to external drives using SATA and molex connectors.</string>
+    <string name="powersupply_description2">Power supplies come in a range of strengths and quality ratings, where higher watt power supplies can service computers which
+    draw more power, and the quality rating determines longevity and guarantee, ranging from bronze to titanium.</string>
+
+
+
 
 
 
