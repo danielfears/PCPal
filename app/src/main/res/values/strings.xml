@@ -6,12 +6,41 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_component_guide">component_guide</string>
     <string name="title_activity_builder_checklist">builder_checklist</string>
+
     <string name="case_description">The computer case, commonly known as the tower or base unit, is the enclosure in which all
         other components are contained. The aim of the case is to safely house all PC components in an environment
-        in which air can flow freely to keep components cool.
-    </string>
+        in which air can flow freely to keep components cool.</string>
     <string name="case_description2">Cases come in a variety of sizes, the most common being mATX (smallest),
         ATX (average) and full ATX (larger). Expensive cases offer builders more space, more auxiliary ports, and greater options for cooling.</string>
-    <string name="amazonlink"><a href="http://tinyurl.com/lq82tma/">Amazon UK</a></string>
+    <string name="amazonlinkcase"><a href="http://tinyurl.com/lq82tma/">Amazon UK</a></string>
+
+    <string name="motherboard_description">The motherboard, also known as mobo or logic board, is the main component in which all other components are connected.
+    It functions as the carrier of all data between each component, and provides ports for the user to plug in peripherals such as a mouse and keyboard.</string>
+    <string name="motherboard_description2">Motherboards come in a variety of sizes, the most common being mATX (smallest) and
+        ATX (average) and dictates which size case is required. The motherboard is the first thing to wake up when a PC is turned on,
+        and is where the BIOS (brain of the motherboard) runs initial PC checks.</string>
+
+    <string name="cpu_description">The CPU, or Central Processing Unit, is the brain of the computer where all calculations are carried out. The CPU is
+        seated on the motherboard and is the main component driving every process on the computer. CPU's come in a variety of different speeds (for example 2.4GHz)
+    and socket size (which must match the same socket as the motherboard for example LG1155).</string>
+    <string name="cpu_description2">There are two main producers of CPU's in today's market, Intel and AMD. Intel are regarded as the premium
+    CPU brand and are usually more powerful and expensive. AMD produce entry-level CPU's which while being cheaper, are less powerful.
+    Intel and AMD CPU's use different pin types, and therefore can not be used on the same type of motherboard.</string>
+
+    <string name="cooler_description">The CPU cooler is the primary source of keeping the CPU at an adequate temperature for operating at efficiency.
+    As the CPU has to work harder it gradually gets hotter, and keeping the temperature under control dictates the performance and longevity of the CPU.</string>
+    <string name="cooler_description2">There are two main types of CPU cooler on the market. Air cooled (uses the flow of air to remove heat) which is also what the CPU ships with, and
+    water cooled, which is bought as an aftermarket cooler.</string>
+
+    <string name="memory_description">The memory or commonly known as RAM (Random Access Memory), is the caching space required by the computer for running
+    applications. As applications are loaded up on a PC they require memory to function, and the more memory available to the computer, the easier it can handle
+    larger programs, or multiple programs at once.</string>
+    <string name="memory_description2">Memory is available in different speeds (1600MHz is average) and generations as newer memory technology is released
+    (DDR3 or DDR4 are the newest standard). Sticks of memory are either bought in pairs and multiples of 2, 4 or 8gb capacity, with some motherboards having
+    a maximum amount they can support.</string>
+
+
+
+
 
 </resources>
