@@ -75,21 +75,21 @@
     <string name="fans_description2">Air pressure within the computer case should be positive, however there should be a balance of intake and outgoing air flow.
     Positive air pressure reduces amount of dust within the case while keeping the air cool.</string>
 
-    <string name="step_one">Ensure all components are out of their packets and ready to install</string>
-    <string name="step_two">Take PC case left side off and lay PC case down on its right side, gap facing up</string>
-    <string name="step_three">Attach anti-static wristband to your wrist and to the case on exposed metal</string>
-    <string name="step_four">Place power supply down in case, fan facing outward and screw in</string>
-    <string name="step_five">Install IO cover for motherboard ports into case</string>
-    <string name="step_six">Install motherboard grommets into case base, using the motherboard size guide</string>
-    <string name="step_seven">Lift CPU clasp on motherboard and remove CPU cover</string>
-    <string name="step_eight">Place CPU down in the open gap and close the clasp down on, ensuring it is held tightly</string>
-    <string name="step_nine">Install memory into the correct slot, pushing down on one side, then the other until it clicks</string>
-    <string name="step_ten">Seat the CPU cooler on the CPU, ensuring clasps are pushed down and secure</string>
-    <string name="step_eleven">Install CPU cooler cable to the CPU cooler port on the motherboard</string>
-    <string name="step_twelve">Place motherboard down on grommets, ensuring it is secure with ports through IO cover</string>
-    <string name="step_thirteen">Hello</string>
-    <string name="step_fourteen">Hello</string>
-    <string name="step_fifteen">Hello</string>
+    <string name="step_one">Ready all components for installation</string>
+    <string name="step_two">Take case side off and lay down flat</string>
+    <string name="step_three">Wear anti-static wristband - attach to case</string>
+    <string name="step_four">Place PSU in case, fan facing outward</string>
+    <string name="step_five">Install IO cover for motherboard</string>
+    <string name="step_six">Install motherboard grommets into case</string>
+    <string name="step_seven">Lift clasp and remove CPU cover</string>
+    <string name="step_eight">Place CPU and close clasp down</string>
+    <string name="step_nine">Install memory into motherboard, pushing down sides until they click</string>
+    <string name="step_ten">Seat cooler on CPU, pushed down secure</string>
+    <string name="step_eleven">Attach cooler cable to motherboard</string>
+    <string name="step_twelve">Place motherboard on grommets</string>
+    <string name="step_thirteen">Screw in secure - not too tight</string>
+    <string name="step_fourteen">Insert CD drive into drive-bay</string>
+    <string name="step_fifteen">Insert Hard Drive into drive-bay</string>
     <string name="step_sixteen">Hello</string>
     <string name="step_seventeen">Hello</string>
     <string name="step_eighteen">Hello</string>

@@ -35,7 +35,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingBottom="40dp"
-        android:paddingTop="110dp"
+        android:paddingTop="130dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         >
 
         <LinearLayout
@@ -75,61 +77,61 @@
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/step_five"
+                android:text="@string/step_six"
                 android:layout_marginTop="20dp"/>
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/step_five"
+                android:text="@string/step_seven"
                 android:layout_marginTop="20dp"/>
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/step_five"
+                android:text="@string/step_eight"
                 android:layout_marginTop="20dp"/>
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/step_five"
+                android:text="@string/step_nine"
                 android:layout_marginTop="20dp"/>
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/step_five"
+                android:text="@string/step_ten"
                 android:layout_marginTop="20dp"/>
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/step_five"
+                android:text="@string/step_eleven"
                 android:layout_marginTop="20dp"/>
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/step_five"
+                android:text="@string/step_twelve"
                 android:layout_marginTop="20dp"/>
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/step_five"
+                android:text="@string/step_thirteen"
                 android:layout_marginTop="20dp"/>
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/step_five"
+                android:text="@string/step_fourteen"
                 android:layout_marginTop="20dp"/>
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/step_five"
+                android:text="@string/step_fifteen"
                 android:layout_marginTop="20dp"/>
 
         </LinearLayout>
