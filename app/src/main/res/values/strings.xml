@@ -90,11 +90,11 @@
     <string name="step_thirteen">Screw in secure - not too tight</string>
     <string name="step_fourteen">Insert CD drive into drive-bay</string>
     <string name="step_fifteen">Insert Hard Drive into drive-bay</string>
-    <string name="step_sixteen">Hello</string>
-    <string name="step_seventeen">Hello</string>
-    <string name="step_eighteen">Hello</string>
-    <string name="step_nineteen">Hello</string>
-    <string name="step_twenty">Hello</string>
+    <string name="step_sixteen">Connect PSU cables to motherboard</string>
+    <string name="step_seventeen">Connect PSU cables to both drives</string>
+    <string name="step_eighteen">Attach case cables to motherboard</string>
+    <string name="step_nineteen">Connect drives to motherboard with SATA cables</string>
+    <string name="step_twenty">Put case side back on, screw in</string>
 
 
 
