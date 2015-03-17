@@ -6,10 +6,53 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sata Cables"
+        android:text="SATA Cables"
         android:textSize="28sp"
         android:layout_centerHorizontal="true"
-        android:paddingTop="40dp"
         android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/picture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/satacable2"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/satacable_description"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/picture"
+                android:layout_marginTop="20dp"
+                android:text="@string/satacable_description"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/satacable_description2"
+                android:layout_below="@+id/satacable_description"
+                android:text="@string/satacable_description2"
+                android:layout_centerHorizontal="true"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="20dp"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
 
 </RelativeLayout>

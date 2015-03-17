@@ -21,11 +21,11 @@
         and is where the BIOS (brain of the motherboard) runs initial PC checks.</string>
 
     <string name="cpu_description">The CPU, or Central Processing Unit, is the brain of the computer where all calculations are carried out. The CPU is
-        seated on the motherboard and is the main component driving every process on the computer. CPU's come in a variety of different speeds (for example 2.4GHz)
+        seated on the motherboard and is the main component driving every process on the computer. CPUs come in a variety of different speeds (for example 2.4GHz)
     and socket size (which must match the same socket as the motherboard for example LG1155).</string>
-    <string name="cpu_description2">There are two main producers of CPU's in today's market, Intel and AMD. Intel are regarded as the premium
-    CPU brand and are usually more powerful and expensive. AMD produce entry-level CPU's which while being cheaper, are less powerful.
-    Intel and AMD CPU's use different pin types, and therefore can not be used on the same type of motherboard.</string>
+    <string name="cpu_description2">There are two main producers of CPUs in todays market, Intel and AMD. Intel are regarded as the premium
+    CPU brand and are usually more powerful and expensive. AMD produce entry-level CPUs which while being cheaper, are less powerful.
+    Intel and AMD CPUs use different pin types, and therefore can not be used on the same type of motherboard.</string>
 
     <string name="cooler_description">The CPU cooler is the primary source of keeping the CPU at an adequate temperature for operating at efficiency.
     As the CPU has to work harder it gradually gets hotter, and keeping the temperature under control dictates the performance and longevity of the CPU.</string>
@@ -44,6 +44,36 @@
     <string name="powersupply_description2">Power supplies come in a range of strengths and quality ratings, where higher watt power supplies can service computers which
     draw more power, and the quality rating determines longevity and guarantee, ranging from bronze to titanium.</string>
 
+    <string name="harddrive_description">Storage devices are the components which hold all of the data on a computer, including personal files
+    and the required software to run the computer including the Operating System, and all information is written to and read from the storage device.</string>
+    <string name="harddrive_description2">There are two main types of storage device, Hard Disk Drives which uses a physical spinning disk to store data.
+        The second type is Solid State which uses flash memory like a USB to store data, which is much faster as it isnt limited by the speed of a spinning disk.
+    It is possible to use both in a computer, for example installing the Operating System on the SSD and using the HDD to store files.</string>
+
+    <string name="gpu_description">Computer graphics are handled in two main ways - onboard graphics, which is the graphics processor built into the CPU, and
+    a graphics card, which is bought separately and sits in the motherboard PCI-E slot and provides much more power by comparison.</string>
+    <string name="gpu_description2">Graphics cards come with a variety of ports for plugging in multiple monitors, and provide the computer with much
+    better graphical processing power. There are two main types of graphics cards - ATI and Nvidia, and the more they cost generally the more power they offer.</string>
+
+    <string name="cddrive_description">The CD drive provides the computer with a method of reading from and writing to physical disks. There are a variety of
+    different drive types which offer to read and write from a greater variety of disk types such as CD and Blu-Rays</string>
+    <string name="cddrive_description2">CD Drives come in a variety of different sizes to fill different bay sizes, however the average is 5.25"</string>
+
+    <string name="os_description">The Operating System or OS, is the underlying software which provides the user with an interface and allows the computer
+    to function, and is just as integral to the computer as the hardware. Core operating system files must not be messed with once installed.</string>
+    <string name="os_description2">There are a variety of different operating system types, such as Microsoft Windows, Apple Mac OS and Linux. Certain operating
+    systems can only be installed on certain computers, such as Mac OS on Apple devices. The most common OS is Microsoft Windows, versions 7 and 8.1.</string>
+
+    <string name="satacable_description">SATA cables are the only cable used within a computer which arent directly connected to another component. Typically they
+    connected together external drives which send and receive data through the motherboard, like the HDD, SSD and CD Drives. </string>
+    <string name="satacable_description2">Usually one is provided with the component which requires connecting together, however aftermarket
+        ones can be bought in a variety of different colours.</string>
+
+    <string name="fans_description">Fans are the primary handlers of airflow within the PC case. Depending on the orientation of fans, they will either
+    pull cold air into the computer case or draw hot air out from it, to regulate temperature. Cases come with one or two fans but more can be purchased
+    to increased to effect, with diminishing returns.</string>
+    <string name="fans_description2">Air pressure within the computer case should be positive, however there should be a balance of intake and outgoing air flow.
+    Positive air pressure reduces amount of dust within the case while keeping the air cool.</string>
 
 
 
