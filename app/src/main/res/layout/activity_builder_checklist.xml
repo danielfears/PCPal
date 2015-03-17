@@ -1,15 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#ffffffff">
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo"
+        android:src="@drawable/companylogo"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/firstline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your guide to PC Components!"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/logo"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/secondtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tap for info / scroll down for more"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/firstline"
+        android:textStyle="italic"
+        />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="40dp"
+        android:paddingTop="110dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/step_one"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/step_two"
+                android:layout_marginTop="20dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/step_three"
+                android:layout_marginTop="20dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/step_four"
+                android:layout_marginTop="20dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/step_five"
+                android:layout_marginTop="20dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/step_five"
+                android:layout_marginTop="20dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/step_five"
+                android:layout_marginTop="20dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/step_five"
+                android:layout_marginTop="20dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/step_five"
+                android:layout_marginTop="20dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/step_five"
+                android:layout_marginTop="20dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/step_five"
+                android:layout_marginTop="20dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/step_five"
+                android:layout_marginTop="20dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/step_five"
+                android:layout_marginTop="20dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/step_five"
+                android:layout_marginTop="20dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/step_five"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Copyright PCPal © Daniel Fears 2015"
-        android:layout_marginTop="525dp"
         android:layout_centerHorizontal="true"
-        />
+        android:text="© 2015 Daniel Fears - PCPal™"
+        android:layout_marginTop="525dp"/>
 
 </RelativeLayout>
