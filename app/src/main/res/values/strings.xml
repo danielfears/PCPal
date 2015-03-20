@@ -96,4 +96,6 @@
     <string name="step_nineteen">Connect drives to motherboard with SATA cables</string>
     <string name="step_twenty">Put case side back on, screw in</string>
 
+    <string name="link">Sample text <![CDATA[<a href="http://www.google.com">link1</a>]]></string>
+
 </resources>

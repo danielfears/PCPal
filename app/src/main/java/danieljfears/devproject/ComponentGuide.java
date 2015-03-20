@@ -5,6 +5,8 @@ import android.content.Context;
 import android.graphics.Point;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,6 +17,7 @@ import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -51,6 +54,11 @@ public class ComponentGuide extends ActionBarActivity {
 
         ComponentAdapter adapter = new ComponentAdapter(ComponentGuide.this);
         gridView.setAdapter(adapter);
+
+        setContentView(R.layout.popup_case);
+        TextView tv = (TextView) findViewById(R.id.link);
+        tv.setText(Html.fromHtml(getString(R.string.link)));
+        tv.setMovementMethod(LinkMovementMethod.getInstance());
 
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -95,12 +103,13 @@ public class ComponentGuide extends ActionBarActivity {
 
                 Toast.makeText(ComponentGuide.this, components.get(position), Toast.LENGTH_SHORT).show();
 
+
+
+
             }
         });
 
-
     }
-
 
 
     private class ComponentAdapter extends BaseAdapter {
