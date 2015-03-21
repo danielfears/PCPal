@@ -2,7 +2,9 @@ package danieljfears.devproject;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Point;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.text.Html;
@@ -54,11 +56,6 @@ public class ComponentGuide extends ActionBarActivity {
 
         ComponentAdapter adapter = new ComponentAdapter(ComponentGuide.this);
         gridView.setAdapter(adapter);
-
-        setContentView(R.layout.popup_case);
-        TextView tv = (TextView) findViewById(R.id.link);
-        tv.setText(Html.fromHtml(getString(R.string.link)));
-        tv.setMovementMethod(LinkMovementMethod.getInstance());
 
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -153,6 +150,78 @@ public class ComponentGuide extends ActionBarActivity {
 
 
     }//end top image adapter
+
+    public void caselink(View v){
+        Uri uriUrl = Uri.parse("http://www.amazon.co.uk/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=PC%20Case");
+        final Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
+    }
+
+    public void mobolink(View v){
+        Uri uriUrl = Uri.parse("http://www.amazon.co.uk/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=Motherboard&sprefix=Mothe%2Caps");
+        final Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
+    }
+
+    public void cpulink(View v){
+        Uri uriUrl = Uri.parse("http://www.amazon.co.uk/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=CPU&rh=i%3Aaps%2Ck%3ACPU");
+        final Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
+    }
+
+    public void coolerlink(View v){
+        Uri uriUrl = Uri.parse("http://www.amazon.co.uk/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=CPU+Cooler&rh=i%3Aaps%2Ck%3ACPU+Cooler");
+        final Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
+    }
+
+    public void memorylink(View v){
+        Uri uriUrl = Uri.parse("http://www.amazon.co.uk/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=RAM&rh=i%3Aaps%2Ck%3ARAM");
+        final Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
+    }
+
+    public void psulink(View v){
+        Uri uriUrl = Uri.parse("http://www.amazon.co.uk/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=PSU&rh=i%3Aaps%2Ck%3APSU");
+        final Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
+    }
+
+    public void storagelink(View v){
+        Uri uriUrl = Uri.parse("http://www.amazon.co.uk/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=internal+hard+drive&rh=i%3Aaps%2Ck%3Ainternal+hard+drive");
+        final Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
+    }
+
+    public void gpulink(View v){
+        Uri uriUrl = Uri.parse("http://www.amazon.co.uk/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=GPU&rh=i%3Aaps%2Ck%3AGPU");
+        final Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
+    }
+
+    public void cddrivelink(View v){
+        Uri uriUrl = Uri.parse("http://www.amazon.co.uk/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=cd+drive&rh=i%3Aaps%2Ck%3Acd+drive");
+        final Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
+    }
+
+    public void oslink(View v){
+        Uri uriUrl = Uri.parse("http://www.amazon.co.uk/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=windows+os&rh=i%3Aaps%2Ck%3Awindows+os");
+        final Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
+    }
+
+    public void satalink(View v){
+        Uri uriUrl = Uri.parse("http://www.amazon.co.uk/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=sata+cable&rh=i%3Aaps%2Ck%3Asata+cable");
+        final Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
+    }
+
+    public void fanslink(View v){
+        Uri uriUrl = Uri.parse("http://www.amazon.co.uk/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=pc+fans&rh=i%3Aaps%2Ck%3Apc+fans");
+        final Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
+    }
 
     // The method that displays the popup.
     private void showCasePopup(final Activity context, Point p) {

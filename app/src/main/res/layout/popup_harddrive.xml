@@ -51,6 +51,16 @@
                 android:paddingRight="10dp"
                 android:layout_marginTop="20dp"/>
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amazon UK"
+                android:layout_below="@+id/harddrive_description2"
+                android:layout_marginTop="20dp"
+                android:id="@+id/storagelink"
+                android:onClick="storagelink"
+                android:layout_centerHorizontal="true"/>
+
         </RelativeLayout>
 
     </ScrollView>

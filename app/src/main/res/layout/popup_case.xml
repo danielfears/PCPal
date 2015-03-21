@@ -51,13 +51,15 @@
                 android:paddingRight="10dp"
                 android:layout_marginTop="20dp"/>
 
-
-
-            <TextView
-                android:id="@+id/link"
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"/>
+                android:text="Amazon UK"
+                android:layout_below="@+id/case_description2"
+                android:layout_marginTop="20dp"
+                android:id="@+id/caselink"
+                android:onClick="caselink"
+                android:layout_centerHorizontal="true"/>
 
         </RelativeLayout>
 

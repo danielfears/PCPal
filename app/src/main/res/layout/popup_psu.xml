@@ -42,7 +42,7 @@
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/powersuply_description2"
+                android:id="@+id/powersupply_description2"
                 android:layout_below="@+id/powersupply_description"
                 android:text="@string/powersupply_description2"
                 android:layout_centerHorizontal="true"
@@ -50,6 +50,16 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:layout_marginTop="20dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amazon UK"
+                android:layout_below="@+id/powersupply_description2"
+                android:layout_marginTop="20dp"
+                android:id="@+id/psulink"
+                android:onClick="psulink"
+                android:layout_centerHorizontal="true"/>
 
         </RelativeLayout>
 

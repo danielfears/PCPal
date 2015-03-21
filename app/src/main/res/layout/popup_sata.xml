@@ -51,6 +51,16 @@
                 android:paddingRight="10dp"
                 android:layout_marginTop="20dp"/>
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amazon UK"
+                android:layout_below="@+id/satacable_description2"
+                android:layout_marginTop="20dp"
+                android:id="@+id/satalink"
+                android:onClick="satalink"
+                android:layout_centerHorizontal="true"/>
+
         </RelativeLayout>
 
     </ScrollView>
