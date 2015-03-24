@@ -25,7 +25,7 @@
         android:id="@+id/secondtext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="check off your progress as you build"
+        android:text="click for info / scroll down for more"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/firstline"
         android:textStyle="italic"
