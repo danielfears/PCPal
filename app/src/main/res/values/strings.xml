@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">DevProject</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">PCPal</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_component_guide">component_guide</string>
     <string name="title_activity_builder_checklist">builder_checklist</string>
