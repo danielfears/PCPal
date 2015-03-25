@@ -1,4 +1,4 @@
-package danieljfears.devproject;
+package danieljfears.PCPal;
 
 import android.app.Activity;
 import android.content.Context;
@@ -95,7 +95,8 @@ public class ComponentGuide extends ActionBarActivity {
                     showFansPopup(ComponentGuide.this, null);
                 }
 
-                Toast.makeText(ComponentGuide.this, components.get(position), Toast.LENGTH_SHORT).show();
+                //Redundant toast for testing catchment of user click
+                //Toast.makeText(ComponentGuide.this, components.get(position), Toast.LENGTH_SHORT).show();
 
 
 

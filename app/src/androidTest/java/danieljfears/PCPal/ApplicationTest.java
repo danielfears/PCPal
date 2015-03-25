@@ -1,4 +1,4 @@
-package danieljfears.devproject;
+package danieljfears.PCPal;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
