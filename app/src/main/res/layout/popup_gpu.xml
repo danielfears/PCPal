@@ -44,7 +44,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/gpu_description2"
                 android:layout_below="@+id/gpu_description"
-                android:text="@string/cddrive_description2"
+                android:text="@string/gpu_description2"
                 android:layout_centerHorizontal="true"
                 android:textSize="20dp"
                 android:paddingLeft="10dp"
