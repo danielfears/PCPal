@@ -2,7 +2,12 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffffff">
+    android:background="#ffffffff"
+    android:id="@+id/layout">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
     <ImageView
         android:id="@+id/companylogo"
@@ -29,7 +34,7 @@
         android:scaleType="fitXY"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/companyslogan"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="50dp"
         android:background="#ffffffff" />
 
     <ImageButton
@@ -41,16 +46,20 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@id/componentbutton"
         android:background="#ffffffff"
-        android:layout_marginTop="30dp"/>
+        android:layout_marginTop="35dp"/>
 
-    <TextView
-        android:id="@+id/copyright"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Copyright PCPal © Daniel Fears 2015"
-        android:layout_marginTop="525dp"
-        android:layout_centerHorizontal="true"
-        android:clickable="true"
-        />
+        <TextView
+            android:id="@+id/copyright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Copyright PCPal © Daniel Fears 2015"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:layout_below="@+id/builderchecklist"
+            android:layout_marginTop="70dp"
+            />
+
+    </RelativeLayout>
+
 
 </RelativeLayout>

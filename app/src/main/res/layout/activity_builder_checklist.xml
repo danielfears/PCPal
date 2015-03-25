@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+    android:background="#ffffffff">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -33,18 +34,18 @@
 
     <ScrollView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingBottom="40dp"
+        android:layout_height="560dp"
         android:paddingTop="130dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginBottom="20dp"
+        android:id="@+id/scroll"
         >
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:id="@+id/scrollcontent">
 
             <CheckBox
                 android:layout_width="wrap_content"
@@ -174,6 +175,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:text="© 2015 Daniel Fears - PCPal™"
-        android:layout_marginTop="525dp"/>
+        android:layout_below="@+id/scroll"
+        android:layout_marginTop="20dp"/>
 
 </RelativeLayout>
