@@ -11,6 +11,7 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
@@ -223,8 +224,7 @@ public class ComponentGuide extends ActionBarActivity {
 
     // The method that displays the popup.
     private void showCasePopup(final Activity context, Point p) {
-        int popupWidth = 600;
-        int popupHeight = 850;
+
 
         // Inflate the popup_layout.xml
         RelativeLayout viewGroup = (RelativeLayout) context.findViewById(R.id.popup);
@@ -236,8 +236,8 @@ public class ComponentGuide extends ActionBarActivity {
         // Creating the PopupWindow
         final PopupWindow popup = new PopupWindow(context);
         popup.setContentView(layout);
-        popup.setWidth(popupWidth);
-        popup.setHeight(popupHeight);
+        popup.setWidth(WindowManager.LayoutParams.WRAP_CONTENT);
+        popup.setHeight(WindowManager.LayoutParams.WRAP_CONTENT);
         popup.setFocusable(true);
 
         // Displaying the popup at the specified location, + offsets.
@@ -246,8 +246,7 @@ public class ComponentGuide extends ActionBarActivity {
 
     // The method that displays the popup.
     private void showMotherboardPopup(final Activity context, Point p) {
-        int popupWidth = 600;
-        int popupHeight = 850;
+
 
         // Inflate the popup_layout.xml
         RelativeLayout viewGroup = (RelativeLayout) context.findViewById(R.id.popup);
@@ -259,8 +258,8 @@ public class ComponentGuide extends ActionBarActivity {
         // Creating the PopupWindow
         final PopupWindow popup = new PopupWindow(context);
         popup.setContentView(layout);
-        popup.setWidth(popupWidth);
-        popup.setHeight(popupHeight);
+        popup.setWidth(WindowManager.LayoutParams.WRAP_CONTENT);
+        popup.setHeight(WindowManager.LayoutParams.WRAP_CONTENT);
         popup.setFocusable(true);
 
         // Displaying the popup at the specified location, + offsets.
@@ -269,8 +268,7 @@ public class ComponentGuide extends ActionBarActivity {
 
     // The method that displays the popup.
     private void showCpuPopup(final Activity context, Point p) {
-        int popupWidth = 600;
-        int popupHeight = 850;
+
 
         // Inflate the popup_layout.xml
         RelativeLayout viewGroup = (RelativeLayout) context.findViewById(R.id.popup);
@@ -282,8 +280,8 @@ public class ComponentGuide extends ActionBarActivity {
         // Creating the PopupWindow
         final PopupWindow popup = new PopupWindow(context);
         popup.setContentView(layout);
-        popup.setWidth(popupWidth);
-        popup.setHeight(popupHeight);
+        popup.setWidth(WindowManager.LayoutParams.WRAP_CONTENT);
+        popup.setHeight(WindowManager.LayoutParams.WRAP_CONTENT);
         popup.setFocusable(true);
 
         // Displaying the popup at the specified location, + offsets.
@@ -292,8 +290,7 @@ public class ComponentGuide extends ActionBarActivity {
 
     // The method that displays the popup.
     private void showCoolerPopup(final Activity context, Point p) {
-        int popupWidth = 600;
-        int popupHeight = 850;
+
 
         // Inflate the popup_layout.xml
         RelativeLayout viewGroup = (RelativeLayout) context.findViewById(R.id.popup);
@@ -305,8 +302,8 @@ public class ComponentGuide extends ActionBarActivity {
         // Creating the PopupWindow
         final PopupWindow popup = new PopupWindow(context);
         popup.setContentView(layout);
-        popup.setWidth(popupWidth);
-        popup.setHeight(popupHeight);
+        popup.setWidth(WindowManager.LayoutParams.WRAP_CONTENT);
+        popup.setHeight(WindowManager.LayoutParams.WRAP_CONTENT);
         popup.setFocusable(true);
 
         // Displaying the popup at the specified location, + offsets.
@@ -315,8 +312,7 @@ public class ComponentGuide extends ActionBarActivity {
 
     // The method that displays the popup.
     private void showMemoryPopup(final Activity context, Point p) {
-        int popupWidth = 600;
-        int popupHeight = 850;
+
 
         // Inflate the popup_layout.xml
         RelativeLayout viewGroup = (RelativeLayout) context.findViewById(R.id.popup);
@@ -328,8 +324,8 @@ public class ComponentGuide extends ActionBarActivity {
         // Creating the PopupWindow
         final PopupWindow popup = new PopupWindow(context);
         popup.setContentView(layout);
-        popup.setWidth(popupWidth);
-        popup.setHeight(popupHeight);
+        popup.setWidth(WindowManager.LayoutParams.WRAP_CONTENT);
+        popup.setHeight(WindowManager.LayoutParams.WRAP_CONTENT);
         popup.setFocusable(true);
 
         // Displaying the popup at the specified location, + offsets.
@@ -338,8 +334,7 @@ public class ComponentGuide extends ActionBarActivity {
 
     // The method that displays the popup.
     private void showPowersupplyPopup(final Activity context, Point p) {
-        int popupWidth = 600;
-        int popupHeight = 850;
+
 
         // Inflate the popup_layout.xml
         RelativeLayout viewGroup = (RelativeLayout) context.findViewById(R.id.popup);
@@ -351,8 +346,8 @@ public class ComponentGuide extends ActionBarActivity {
         // Creating the PopupWindow
         final PopupWindow popup = new PopupWindow(context);
         popup.setContentView(layout);
-        popup.setWidth(popupWidth);
-        popup.setHeight(popupHeight);
+        popup.setWidth(WindowManager.LayoutParams.WRAP_CONTENT);
+        popup.setHeight(WindowManager.LayoutParams.WRAP_CONTENT);
         popup.setFocusable(true);
 
         // Displaying the popup at the specified location, + offsets.
@@ -361,8 +356,7 @@ public class ComponentGuide extends ActionBarActivity {
 
     // The method that displays the popup.
     private void showHarddrivePopup(final Activity context, Point p) {
-        int popupWidth = 600;
-        int popupHeight = 850;
+
 
         // Inflate the popup_layout.xml
         RelativeLayout viewGroup = (RelativeLayout) context.findViewById(R.id.popup);
@@ -374,8 +368,8 @@ public class ComponentGuide extends ActionBarActivity {
         // Creating the PopupWindow
         final PopupWindow popup = new PopupWindow(context);
         popup.setContentView(layout);
-        popup.setWidth(popupWidth);
-        popup.setHeight(popupHeight);
+        popup.setWidth(WindowManager.LayoutParams.WRAP_CONTENT);
+        popup.setHeight(WindowManager.LayoutParams.WRAP_CONTENT);
         popup.setFocusable(true);
 
         // Displaying the popup at the specified location, + offsets.
@@ -384,8 +378,7 @@ public class ComponentGuide extends ActionBarActivity {
 
     // The method that displays the popup.
     private void showGpuPopup(final Activity context, Point p) {
-        int popupWidth = 600;
-        int popupHeight = 850;
+
 
         // Inflate the popup_layout.xml
         RelativeLayout viewGroup = (RelativeLayout) context.findViewById(R.id.popup);
@@ -397,8 +390,8 @@ public class ComponentGuide extends ActionBarActivity {
         // Creating the PopupWindow
         final PopupWindow popup = new PopupWindow(context);
         popup.setContentView(layout);
-        popup.setWidth(popupWidth);
-        popup.setHeight(popupHeight);
+        popup.setWidth(WindowManager.LayoutParams.WRAP_CONTENT);
+        popup.setHeight(WindowManager.LayoutParams.WRAP_CONTENT);
         popup.setFocusable(true);
 
         // Displaying the popup at the specified location, + offsets.
@@ -407,8 +400,7 @@ public class ComponentGuide extends ActionBarActivity {
 
     // The method that displays the popup.
     private void showCddrivePopup(final Activity context, Point p) {
-        int popupWidth = 600;
-        int popupHeight = 850;
+
 
         // Inflate the popup_layout.xml
         RelativeLayout viewGroup = (RelativeLayout) context.findViewById(R.id.popup);
@@ -420,8 +412,8 @@ public class ComponentGuide extends ActionBarActivity {
         // Creating the PopupWindow
         final PopupWindow popup = new PopupWindow(context);
         popup.setContentView(layout);
-        popup.setWidth(popupWidth);
-        popup.setHeight(popupHeight);
+        popup.setWidth(WindowManager.LayoutParams.WRAP_CONTENT);
+        popup.setHeight(WindowManager.LayoutParams.WRAP_CONTENT);
         popup.setFocusable(true);
 
         // Displaying the popup at the specified location, + offsets.
@@ -430,8 +422,7 @@ public class ComponentGuide extends ActionBarActivity {
 
     // The method that displays the popup.
     private void showOperatingsystemPopup(final Activity context, Point p) {
-        int popupWidth = 600;
-        int popupHeight = 850;
+
 
         // Inflate the popup_layout.xml
         RelativeLayout viewGroup = (RelativeLayout) context.findViewById(R.id.popup);
@@ -443,8 +434,8 @@ public class ComponentGuide extends ActionBarActivity {
         // Creating the PopupWindow
         final PopupWindow popup = new PopupWindow(context);
         popup.setContentView(layout);
-        popup.setWidth(popupWidth);
-        popup.setHeight(popupHeight);
+        popup.setWidth(WindowManager.LayoutParams.WRAP_CONTENT);
+        popup.setHeight(WindowManager.LayoutParams.WRAP_CONTENT);
         popup.setFocusable(true);
 
         // Displaying the popup at the specified location, + offsets.
@@ -453,8 +444,7 @@ public class ComponentGuide extends ActionBarActivity {
 
     // The method that displays the popup.
     private void showSatacablePopup(final Activity context, Point p) {
-        int popupWidth = 600;
-        int popupHeight = 850;
+
 
         // Inflate the popup_layout.xml
         RelativeLayout viewGroup = (RelativeLayout) context.findViewById(R.id.popup);
@@ -466,8 +456,8 @@ public class ComponentGuide extends ActionBarActivity {
         // Creating the PopupWindow
         final PopupWindow popup = new PopupWindow(context);
         popup.setContentView(layout);
-        popup.setWidth(popupWidth);
-        popup.setHeight(popupHeight);
+        popup.setWidth(WindowManager.LayoutParams.WRAP_CONTENT);
+        popup.setHeight(WindowManager.LayoutParams.WRAP_CONTENT);
         popup.setFocusable(true);
 
         // Displaying the popup at the specified location, + offsets.
@@ -476,8 +466,7 @@ public class ComponentGuide extends ActionBarActivity {
 
     // The method that displays the popup.
     private void showFansPopup(final Activity context, Point p) {
-        int popupWidth = 600;
-        int popupHeight = 850;
+
 
         // Inflate the popup_layout.xml
         RelativeLayout viewGroup = (RelativeLayout) context.findViewById(R.id.popup);
@@ -489,8 +478,8 @@ public class ComponentGuide extends ActionBarActivity {
         // Creating the PopupWindow
         final PopupWindow popup = new PopupWindow(context);
         popup.setContentView(layout);
-        popup.setWidth(popupWidth);
-        popup.setHeight(popupHeight);
+        popup.setWidth(WindowManager.LayoutParams.WRAP_CONTENT);
+        popup.setHeight(WindowManager.LayoutParams.WRAP_CONTENT);
         popup.setFocusable(true);
 
         // Displaying the popup at the specified location, + offsets.
