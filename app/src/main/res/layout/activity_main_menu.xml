@@ -18,13 +18,16 @@
         android:src="@drawable/companylogo"
         android:scaleType="fitXY"/>
 
-    <ImageView
+    <TextView
         android:id="@+id/companyslogan"
-        android:layout_width="300dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/companyslogan"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/companylogo"/>
+        android:layout_below="@+id/companylogo"
+        android:text="Computer Building Companion App"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        />
 
     <ImageButton
         android:id="@+id/componentbutton"
@@ -52,11 +55,11 @@
             android:id="@+id/copyright"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Copyright PCPal © Daniel Fears 2015"
+            android:text="@string/copyright"
             android:layout_centerHorizontal="true"
             android:clickable="true"
             android:layout_below="@+id/builderchecklist"
-            android:layout_marginTop="70dp"
+            android:layout_marginTop="50dp"
             />
 
     </RelativeLayout>

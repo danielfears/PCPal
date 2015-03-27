@@ -26,7 +26,7 @@
         android:id="@+id/secondtext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="tick off progress as you build"
+        android:text="(tick off progress as you go)"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/firstline"
         android:textStyle="italic"
@@ -34,8 +34,8 @@
 
     <ScrollView
         android:layout_width="wrap_content"
-        android:layout_height="560dp"
-        android:paddingTop="130dp"
+        android:layout_height="510dp"
+        android:paddingTop="120dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:id="@+id/scroll"
@@ -174,7 +174,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="© 2015 Daniel Fears - PCPal™"
+        android:text="@string/copyright"
         android:layout_below="@+id/scroll"
         android:layout_marginTop="20dp"/>
 

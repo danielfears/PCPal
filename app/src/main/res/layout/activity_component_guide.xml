@@ -15,7 +15,7 @@
         android:id="@+id/firstline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Your guide to building a PC"
+        android:text="PC Components Guide"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/logo"
         android:textStyle="bold"
@@ -25,7 +25,7 @@
         android:id="@+id/secondtext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="click for info / scroll down for more"
+        android:text="(click for info / scroll down for more)"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/firstline"
         android:textStyle="italic"
@@ -33,7 +33,7 @@
 
     <GridView
         android:layout_width="300dp"
-        android:layout_height="560dp"
+        android:layout_height="510dp"
         android:id="@+id/componentGridView"
         android:numColumns="2"
         android:horizontalSpacing="20dp"
@@ -45,7 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="© 2015 Daniel Fears - PCPal™"
+        android:text="@string/copyright"
         android:layout_below="@+id/componentGridView"
         android:layout_marginTop="20dp"/>
 

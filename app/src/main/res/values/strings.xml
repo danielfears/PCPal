@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string name="copyright">© 2015 Daniel Fears - PCPal™</string>
     <string name="app_name">PCPal</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_component_guide">component_guide</string>
@@ -14,64 +15,62 @@
     <string name="amazonlinkcase"><a href="http://tinyurl.com/lq82tma/">Amazon UK</a></string>
 
     <string name="motherboard_description">The motherboard, also known as mobo or logic board, is the main component in which all other components are connected.
-    It functions as the carrier of all data between each component, and provides ports for the user to plug in peripherals such as a mouse and keyboard.</string>
+    It functions as the carrier of all data between components, and provides ports for the user to plug in peripherals such as a mouse and keyboard.</string>
     <string name="motherboard_description2">Motherboards come in a variety of sizes, the most common being mATX (smallest) and
-        ATX (average) and dictates which size case is required. The motherboard is the first thing to wake up when a PC is turned on,
-        and is where the BIOS (brain of the motherboard) runs initial PC checks.</string>
+        ATX (average) and correlates to the size of case required. The motherboard is the first component to start when a PC is turned on,
+        and is where runs initial PC checks are made.</string>
 
-    <string name="cpu_description">The CPU, or Central Processing Unit, is the brain of the computer where all calculations are carried out. The CPU is
-        seated on the motherboard and is the main component driving every process on the computer. CPUs come in a variety of different speeds (for example 2.4GHz)
-    and socket size (which must match the same socket as the motherboard for example LG1155).</string>
-    <string name="cpu_description2">There are two main producers of CPUs in todays market, Intel and AMD. Intel are regarded as the premium
-    CPU brand and are usually more powerful and expensive. AMD produce entry-level CPUs which while being cheaper, are less powerful.
-    Intel and AMD CPUs use different pin types, and therefore can not be used on the same type of motherboard.</string>
+    <string name="cpu_description">The CPU (Central Processing Unit) is the brain of the computer where all calculations are carried out, and is seated in the motherboard.
+        CPUs come in a variety of different speeds (for example 2.4GHz) and socket size (which must match the same socket as the motherboard for example both using LG1150).</string>
+    <string name="cpu_description2">There are two main producers of CPUs in the market today; Intel and AMD. Intel are regarded as the premium
+    CPU brand and are usually more powerful and expensive. AMD produce entry-level CPUs which while being cheaper, are usually less powerful.
+    Intel and AMD CPUs use different pin types, and therefore must use a compatible AMD or Intel style motherboard.</string>
 
     <string name="cooler_description">The CPU cooler is the primary source of keeping the CPU at an adequate temperature for operating at efficiency.
-    As the CPU has to work harder it gradually gets hotter, and keeping the temperature under control dictates the performance and longevity of the CPU.</string>
-    <string name="cooler_description2">There are two main types of CPU cooler on the market. Air cooled (uses the flow of air to remove heat) which is also what the CPU ships with, and
-    water cooled, which is bought as an aftermarket cooler.</string>
+    As the CPU works harder it gradually gets hotter, and keeping the temperature under control can improve performance and longevity of the CPU.</string>
+    <string name="cooler_description2">There are two main types of CPU cooler; air cooled which uses air flow to remove heat (which comes with the CPU with bought) and
+    water cooled, which uses water contained in pipes to remove heat (bought aftermarket from a retailer.)</string>
 
-    <string name="memory_description">The memory or commonly known as RAM (Random Access Memory), is the caching space required by the computer for running
-    applications. As applications are loaded up on a PC they require memory to function, and the more memory available to the computer, the easier it can handle
+    <string name="memory_description">Memory, commonly known as RAM (Random Access Memory), is the space used by software programs to store information being used by them.
+        As applications are loaded up on a PC they require memory to function, and having more memory available to the computer means it can handle
     larger programs, or multiple programs at once.</string>
-    <string name="memory_description2">Memory is available in different speeds (1600MHz is average) and generations as newer memory technology is released
-    (DDR3 or DDR4 are the newest standard). Sticks of memory are either bought in pairs and multiples of 2, 4 or 8gb capacity, with some motherboards having
-    a maximum amount they can support.</string>
+    <string name="memory_description2">Memory is available in different speeds (1600MHz is average) and generations (DDR3 or DDR4 are the current standard) as newer memory technology is released.
+        Memory can be bought and used either separately or in pairs of two (dual-channel) in the capacity of 2gb, 4gb or 8gb capacity, with some motherboards having a maximum amount they can support.</string>
 
     <string name="powersupply_description">The power supply, also know as the PSU (power supply unit), is the component which supplies regulated electricity to
-    the computer. The power supply connects to the motherboard using two PCI-E auxiliary connectors and to external drives using SATA and molex connectors.</string>
+    the computer. The power supply connects to the motherboard using two auxiliary connectors and to external drives (storage/CD) using SATA and molex connectors.</string>
     <string name="powersupply_description2">Power supplies come in a range of strengths and quality ratings, where higher watt power supplies can service computers which
-    draw more power, and the quality rating determines longevity and guarantee, ranging from bronze to titanium.</string>
+    draw more power, and the quality rating determines longevity and likelihood of failure, ranging from bronze to titanium.</string>
 
-    <string name="harddrive_description">Storage devices are the components which hold all of the data on a computer, including personal files
-    and the required software to run the computer including the Operating System, and all information is written to and read from the storage device.</string>
-    <string name="harddrive_description2">There are two main types of storage device, Hard Disk Drives which uses a physical spinning disk to store data.
-        The second type is Solid State which uses flash memory like a USB to store data, which is much faster as it isnt limited by the speed of a spinning disk.
+    <string name="harddrive_description">Storage devices are the components which store all of the data on a computer, ranging from personal files
+    to the software required to run the computer (Operating System/drivers. This information is written to and read from the storage device at high speed.</string>
+    <string name="harddrive_description2">There are two main types of storage device, Hard Disk Drives (HDD) which uses physical spinning disks to store data, and Solid State Drives (SSD)
+        which uses flash memory like a USB to store data, the latter being much faster as no moving parts are involved.
     It is possible to use both in a computer, for example installing the Operating System on the SSD and using the HDD to store files.</string>
 
-    <string name="gpu_description">Computer graphics are handled in two main ways - onboard graphics, which is the graphics processor built into the CPU, and
-    a graphics card, which is bought separately and sits in the motherboard PCI-E slot and provides much more power by comparison.</string>
-    <string name="gpu_description2">Graphics cards come with a variety of ports for plugging in multiple monitors, and provide the computer with much
-    better graphical processing power. There are two main types of graphics cards - ATI and Nvidia, and the more they cost generally the more power they offer.</string>
+    <string name="gpu_description">The Graphics processing unit (or GPU), comes in two formats; onboard graphics, which is the GPU built into the CPU, and
+    a graphics card, which is bought separately and plugs into the motherboards PCI-E slot, providing much greater graphics power by comparison.</string>
+    <string name="gpu_description2">Graphics cards come with a variety of ports for plugging in multiple monitors.
+        There are two main manufacturers of graphics card; ATI and Nvidia, and the more they cost generally the more power they can provide. Two or more graphics cards of the same type can also be used
+        in the same system to provide extra power - either called SLI (Nvidia) or Crossfire (AMD).</string>
 
     <string name="cddrive_description">The CD drive provides the computer with a method of reading from and writing to physical disks. There are a variety of
-    different drive types which offer to read and write from a greater variety of disk types such as CD and Blu-Rays</string>
-    <string name="cddrive_description2">CD Drives come in a variety of different sizes to fill different bay sizes, however the average is 5.25"</string>
+    different drive types which offer to read and write from a greater variety of disk types such as CD and Blu-Rays.</string>
+    <string name="cddrive_description2">CD Drives come in a variety of different sizes to fill various bay sizes, however the average is 5.25 inches.</string>
 
     <string name="os_description">The Operating System or OS, is the underlying software which provides the user with an interface and allows the computer
-    to function, and is just as integral to the computer as the hardware. Core operating system files must not be messed with once installed.</string>
-    <string name="os_description2">There are a variety of different operating system types, such as Microsoft Windows, Apple Mac OS and Linux. Certain operating
-    systems can only be installed on certain computers, such as Mac OS on Apple devices. The most common OS is Microsoft Windows, versions 7 and 8.1.</string>
+    to function, and is just as integral to the computer as the hardware. Core operating system files must not be altered once installed as this can break the computer.</string>
+    <string name="os_description2">There are a variety of different operating system types such as Microsoft Windows, Apple Mac OS and Linux. Certain operating
+    systems can only be installed on specific computers, such as Mac OS on Apple devices. The most common OS is Microsoft Windows, versions 7 and 8.1, with version 10 coming later this year.</string>
 
-    <string name="satacable_description">SATA cables are the only cable used within a computer which arent directly connected to another component. Typically they
-    connected together external drives which send and receive data through the motherboard, like the HDD, SSD and CD Drives. </string>
-    <string name="satacable_description2">Usually one is provided with the component which requires connecting together, however aftermarket
-        ones can be bought in a variety of different colours.</string>
+    <string name="satacable_description">SATA cables are the cable which directly connects the external drives to the motherboard and provides the transfer of data between the two components.</string>
+    <string name="satacable_description2">Usually one is provided with the component which requires connecting together such as the hard drive, however aftermarket ones can be bought in a variety of different colours
+        and sizes.</string>
 
     <string name="fans_description">Fans are the primary handlers of airflow within the PC case. Depending on the orientation of fans, they will either
     pull cold air into the computer case or draw hot air out from it, to regulate temperature. Cases come with one or two fans but more can be purchased
-    to increased to effect, with diminishing returns.</string>
-    <string name="fans_description2">Air pressure within the computer case should be positive, however there should be a balance of intake and outgoing air flow.
+    to increased the effect, with diminishing returns. A typical fan setup would be to draw cold air in from the front, side and bottom, and push hot air out from the back and top.</string>
+    <string name="fans_description2">Air pressure within the computer case should be positive (more air going in than being taken out), however there should be a rough balance of the two.
     Positive air pressure reduces amount of dust within the case while keeping the air cool.</string>
 
     <string name="step_one">Ready all components for installation</string>
