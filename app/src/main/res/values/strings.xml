@@ -73,26 +73,26 @@
     <string name="fans_description2">Air pressure within the computer case should be positive (more air going in than being taken out), however there should be a rough balance of the two.
     Positive air pressure reduces amount of dust within the case while keeping the air cool.</string>
 
-    <string name="step_one">Ready all components for installation</string>
-    <string name="step_two">Take case side off and lay down flat</string>
-    <string name="step_three">Wear anti-static wristband - attach to case</string>
-    <string name="step_four">Place PSU in case, fan facing outward</string>
-    <string name="step_five">Install IO cover for motherboard</string>
-    <string name="step_six">Install motherboard grommets into case</string>
-    <string name="step_seven">Lift clasp and remove CPU cover</string>
-    <string name="step_eight">Place CPU and close clasp down</string>
+    <string name="step_one">Prepare all components for installation by removing all packaging and keeping them nearby</string>
+    <string name="step_two">Take the case side off and lay down flat with the open facing up, keep screws organised</string>
+    <string name="step_three">Wear anti-static wristband - attach to yourself and to the case on exposed metal</string>
+    <string name="step_four">Place the PSU in the case, ensuring large fan facing out the bottom</string>
+    <string name="step_five">Install IO cover into case for motherboard ports, push in till it clicks</string>
+    <string name="step_six">Install motherboard grommets into case base for motherboard to sit on, using markers</string>
+    <string name="step_seven">On motherboard before placing in, Lift clasp and remove CPU cover</string>
+    <string name="step_eight">Gripping the sides, gently place CPU in gap (lining up shape) and secure clasp down</string>
     <string name="step_nine">Install memory into motherboard, pushing down sides until they click</string>
-    <string name="step_ten">Seat cooler on CPU, pushed down secure</string>
-    <string name="step_eleven">Attach cooler cable to motherboard</string>
-    <string name="step_twelve">Place motherboard on grommets</string>
-    <string name="step_thirteen">Screw in secure - not too tight</string>
-    <string name="step_fourteen">Insert CD drive into drive-bay</string>
-    <string name="step_fifteen">Insert Hard Drive into drive-bay</string>
-    <string name="step_sixteen">Connect PSU cables to motherboard</string>
-    <string name="step_seventeen">Connect PSU cables to both drives</string>
-    <string name="step_eighteen">Attach case cables to motherboard</string>
-    <string name="step_nineteen">Connect drives to motherboard with SATA cables</string>
-    <string name="step_twenty">Put case side back on, screw in</string>
+    <string name="step_ten">Place CPU cooler over CPU, pushed down the four pins until they are secure</string>
+    <string name="step_eleven">Attach 3 or 4 pin CPU cooler cable to motherboard port labeled CPU</string>
+    <string name="step_twelve">Place motherboard down on grommets, ensuring ports go through IO cover</string>
+    <string name="step_thirteen">Screw motherboard down secure, until it does not move, but not too tight</string>
+    <string name="step_fourteen">Insert CD drive into drive-bay and screw in at the sides</string>
+    <string name="step_fifteen">Insert Hard Drive or SSD into drive-bay and screw in at sides</string>
+    <string name="step_sixteen">Connect power supply cables to the relevant motherboard ports (see manual as they differ)</string>
+    <string name="step_seventeen">Connect molex PSU cables to both the CD and hard drives</string>
+    <string name="step_eighteen">Attach the case power and USB cables to motherboard (see manual as they differ)</string>
+    <string name="step_nineteen">Connect drives to motherboard using the SATA cables provided</string>
+    <string name="step_twenty">Put the case side back on, screw in tighly, then switch power supply on.</string>
 
     <string name="link">Sample text <![CDATA[<a href="http://www.google.com">link1</a>]]></string>
 
